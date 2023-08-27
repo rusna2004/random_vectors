@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.4)  26 AUG 2023 16:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.4)  27 AUG 2023 11:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1192,13 +1192,13 @@ File: ot1txr.fd 2000/12/15 v3.1
 LaTeX Warning: Unused global option(s):
     [book].
 
-No file main.aux.
+(./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 59.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 59.
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 59.
@@ -1334,6 +1334,8 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 59.
 LaTeX Info: Redefining \pageref on input line 59.
 LaTeX Info: Redefining \nameref on input line 59.
+
+(./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -1344,33 +1346,33 @@ LaTeX Info: Redefining \nameref on input line 59.
 \c@lemma=\count360
 \c@example=\count361
 \c@rem=\count362
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 107.
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 10
-7.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 111.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 11
+1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 1
-07.
+11.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 1
-07.
+11.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 1
-07.
+11.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
-07.
+11.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
@@ -1392,30 +1394,30 @@ Overfull \hbox (4.79959pt too wide) in paragraph at lines 160--493
  []
 
 )
-<1.1/figs/11.png, id=7, 462.528pt x 346.896pt>
+<1.1/figs/11.png, id=27, 462.528pt x 346.896pt>
 File: 1.1/figs/11.png Graphic file (type png)
 <use 1.1/figs/11.png>
 Package pdftex.def Info: 1.1/figs/11.png  used on input line 8.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-) (./1.2/main.tex (./1.2/tables/12.tex)
-<1.2/figs/12.png, id=9, 462.528pt x 346.896pt>
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./1.2/main.tex (./1.2/tables/12.tex)
+<1.2/figs/12.png, id=29, 462.528pt x 346.896pt>
 File: 1.2/figs/12.png Graphic file (type png)
 <use 1.2/figs/12.png>
 Package pdftex.def Info: 1.2/figs/12.png  used on input line 8.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
- <./1.1/figs/11.png>]
-(./1.3/main.tex (./1.3/tables/13.tex
+ <./1.1/figs/11.png>] (./1.3/main.tex (./1.3/tables/13.tex
 Overfull \hbox (10.79959pt too wide) in paragraph at lines 160--428
  [][] 
  []
 
 )
-<1.3/figs/13.png, id=31, 462.528pt x 346.896pt>
+<1.3/figs/13.png, id=49, 462.528pt x 346.896pt>
 File: 1.3/figs/13.png Graphic file (type png)
 <use 1.3/figs/13.png>
 Package pdftex.def Info: 1.3/figs/13.png  used on input line 8.
@@ -1425,7 +1427,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 (./1.4/main.tex (./1.4/tables/14.tex)
-<1.4/figs/14.png, id=32, 462.528pt x 346.896pt>
+<1.4/figs/14.png, id=50, 462.528pt x 346.896pt>
 File: 1.4/figs/14.png Graphic file (type png)
 <use 1.4/figs/14.png>
 Package pdftex.def Info: 1.4/figs/14.png  used on input line 8.
@@ -1435,7 +1437,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2 <./1.2/figs/12.png> <./1.3/figs/13.png>] (./1.5/main.tex (./1.5/tables/15.t
 ex)
-<1.5/figs/15.png, id=45, 462.528pt x 346.896pt>
+<1.5/figs/15.png, id=61, 462.528pt x 346.896pt>
 File: 1.5/figs/15.png Graphic file (type png)
 <use 1.5/figs/15.png>
 Package pdftex.def Info: 1.5/figs/15.png  used on input line 8.
@@ -1449,23 +1451,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [3 <./1.4/figs/14.png>] [4
 
  <./1.5/figs/15.png>] (./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  413263EAB3890E001C74715FA4636EAE;506.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 413263EAB3890E001C74715FA4636EAE;506.
  ) 
 Here is how much of TeX's memory you used:
- 44628 strings out of 478287
- 1028648 string characters out of 5849290
- 1611542 words of memory out of 5000000
- 62058 multiletter control sequences out of 15000+600000
+ 44640 strings out of 478287
+ 1028759 string characters out of 5849290
+ 1612268 words of memory out of 5000000
+ 62064 multiletter control sequences out of 15000+600000
  549222 words of font info for 202 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  100i,19n,104p,408b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1478,10 +1471,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 162712 bytes).
+Output written on main.pdf (4 pages, 165701 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 121 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  21 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
